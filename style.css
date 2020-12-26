@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    @font-face {
+        font-family: "San Francisco";
+        src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+    }
+}
+.navbar-nav{
+    margin-left:15%;
+    margin-right: 15%;
+    width: 70%;
+    justify-content: center;
+    font-size: medium;
+    text-align: center;
+}
+.nav-item{
+    width: 100%;
+}
+.navbar-brand img{
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.announcement{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4em;
+    font-size: small;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    padding: 0.1rem;
+}
+.gift-image{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.gift-image img{
+    margin: .5em;
+}
+.gifts h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.gifts{
+    text-align: center;
+    color: #000;
+    font-size: 55px;
+}
+.gifts:hover{
+    text-decoration: none;
+}
+.gifts h1:hover{
+    text-decoration: none;
+    color: #000;
+}
+.shop-gifts{
+    text-align: center;
+    color: rgb(8, 152, 236);
+    text-decoration: none;
+}
+.shop-gifts:hover{
+    color: rgb(8, 152, 236);
+}
+.apple-display-1{
+    margin-top: 1em;
+    background-image: url(./images/apple-watch-phone.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 450px;    
+}
+.iphone-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em ;
+    background-color: rgb(250, 250, 250);
+}
+.title-1{
+    margin-top: 2rem;
+    font-weight: 400;
+}
+.title-1 h1{
+    font-size: 55px;
+    font-weight: 600 !important;
+}
+.title-1 h5{
+    color: rgb(158, 157, 157);
+    font-weight: 400;
+}
+.title-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.title-links a{
+    margin: 1em;
+}
+.title-links a:hover{
+    color: rgb(8, 152, 236);
+}
+.image-link{
+    height: 430px;
+    overflow: hidden;
+}
+.iphone-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 5px ;
+    background-color: #000;
+}
+.title-2{
+    margin-top: 2rem;
+    font-weight: 400;
+    color: #fff;
+}
+.title-2 h1{
+    font-size: 55px;
+    font-weight: 600 !important;
+}
+.title-2 h5{
+    color: rgb(158, 157, 157);
+    font-weight: 400;
+}
+
