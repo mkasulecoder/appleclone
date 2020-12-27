@@ -133,4 +133,79 @@ body{
     color: rgb(158, 157, 157);
     font-weight: 400;
 }
+.display-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.display-1{
+    display: flex;
+    flex-direction: row;
+}
+.display-1 div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content-1{
+    height: 600px;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+.content-1 h3{
+    margin-top: 2em;
+    font-weight: 700;
+}
+.content-1 img{
+    width: 96%;
+    margin: 1%;
+}
+#ipad{
+    width: 330px;
+    height: 400px;
+}
+.terms h6{
+    font-size: small;
+    font-weight: 400;
+    color: rgb(112, 112, 112);
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(112, 112, 112);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.rights{
+    color: rgb(112, 112, 112);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
+@media screen and (max-width: 800px){
+    .apple-display-1{
+        background-position: center;
+    }
+    #image-link-1{
+        align-items: center;
+        justify-content: center;
+        background-image: url(https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12_new-design_10132020_big.jpg.large_2x.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #image-link-1 img{
+        display: none;
+    }
+    .display-1{
+        display: flex;
+        flex-direction: column;
+    }
+}
